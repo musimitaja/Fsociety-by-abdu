@@ -57,7 +57,8 @@ print(f"""{RED}
 █████╗   ███████╗██║   ██║██║  ███╗██║█████╗     ██║    ╚████╔╝ 
 ██╔══╝   ╚════██║██║   ██║██║   ██║██║██╔══╝     ██║     ╚██╔╝  
 ██║      ███████║╚██████╔╝╚██████╔╝██║███████╗   ██║      ██║   
-╚═╝      ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚══════╝   ╚═╝      ╚═╝                          Fsociety Tool  by Justnutelabrot
+╚═╝      ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚══════╝   ╚═╝      ╚═╝  
+Fsociety Tool  by Justnutelabrot
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║ Fsociety Tool | v1.0.4                                     [ - ] [ □ ] [ X ] ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
@@ -74,6 +75,9 @@ print(f"""{RED}
 ║ [10] Dmall                  [20] Next Page (1/2) (#soon)                    ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝while True:
+           """
+    
+    while True:
         print(f"\033[31m{menu}")
 
         try:
@@ -86,9 +90,9 @@ print(f"""{RED}
                 elif choice == 2:
                     os.system('python ./tools/geoip.py')
                 elif choice == 3:
-                    os.system('python ./fsociety.py')
+                    os.system('python ./cyb3rtech.py')
                 elif choice == 4:
-                    os.system('python ./fsociety.py')
+                    os.system('python ./cyb3rtech.py')
                 elif choice == 5:
                     os.system('python ./tools/phone_number.py')
                 elif choice == 6:
@@ -110,13 +114,13 @@ print(f"""{RED}
                 elif choice == 14:
                     os.system('python ./tools/discord_token_bruteforce.py')
                 elif choice == 15:
-                    os.system('python ./fsociety.py')
+                    os.system('python ./cyb3rtech.py')
                 elif choice == 16:
-                    os.system('python ./fsociety.py')
+                    os.system('python ./cyb3rtech.py')
                 elif choice == 17:
                     os.system('python ./tools/discord_nitro_generator.py')
                 elif choice == 18:
-                    os.system('python ./fsociety.py')
+                    os.system('python ./cyb3rtech.py')
                 elif choice == 19:
                     os.system('python ./tools/web_cloner.py')
                 elif choice == 20:
